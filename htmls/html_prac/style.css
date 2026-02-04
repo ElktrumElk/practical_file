@@ -1,0 +1,23 @@
+.name {
+    color: rgb(25, 162, 241);
+    animation: change 1s linear infinite;
+}
+
+@keyframes change {
+    0% {
+        color: rgb(25, 162, 241);
+    }
+
+    25% {
+        color: green;
+    }
+
+    80% {
+        color: red;
+    }
+
+    90% {
+        color: rgb(25, 162, 241);
+
+    }
+}
